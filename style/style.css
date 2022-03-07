@@ -1,0 +1,40 @@
+:root{
+    --softblue: hsl(231, 69%, 60%);
+    --SoftRed: hsl(0, 94%, 66%);
+    --GrayishBlue: hsl(229, 8%, 60%);
+    --VeryDarkBlue: hsl(229, 31%, 21%);
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-size: 18px;
+}
+
+.titles{
+    color: var(--VeryDarkBlue);
+}
+
+.nav-link{
+    color: var(--VeryDarkBlue) !important;
+}
+
+.nav-link:hover{
+    color: var(--SoftRed) !important;
+}
+
+#bookmark-header-p{
+    color: var(--GrayishBlue)!important;
+
+}
+
+.btn-warning {
+    color: white;
+    background-color: var(--SoftRed) !important;
+}
+
+.btn-light {
+    color: white;
+    background-color: var(--GrayishBlue) !important;
+}
+
